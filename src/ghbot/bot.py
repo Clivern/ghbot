@@ -66,6 +66,14 @@ class Bot():
             "labstack/echo",
             "rails/rails",
             "nodejs/node",
+            "microsoft/vscode",
+            "dotnet/aspnetcore",
+            "dotnet/runtime",
+            "mysql/mysql-server",
+            "ansible/ansible",
+            "expressjs/express",
+            "angular/angular",
+            "facebook/react",
         ]
         i = 1
         random.shuffle(projects)
