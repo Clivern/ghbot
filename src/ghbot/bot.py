@@ -74,6 +74,7 @@ class Bot():
             "expressjs/express",
             "angular/angular",
             "facebook/react",
+            "grafana/grafana",
         ]
         i = 1
         random.shuffle(projects)

@@ -2,6 +2,11 @@
 Changelog
 =========
 
+Version 0.5.0
+=============
+
+- Add more projects.
+
 Version 0.4.0
 =============
 
