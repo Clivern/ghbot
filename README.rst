@@ -39,7 +39,7 @@ To Use the bot, follow the following steps
 
 .. code-block::
 
-    $ python -m ghbot.cli follow $access-token-here --c 3000 -v
+    $ python -m ghbot.cli follow $access-token-here --c 3000 -v &>out.log &
 
 
 5. Then wait or run as a background process.
