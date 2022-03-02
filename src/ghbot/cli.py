@@ -75,6 +75,7 @@ def parse_args(args):
       :obj:`argparse.Namespace`: command line parameters namespace
     """
     parser = argparse.ArgumentParser(description="Just a Github Bot")
+
     parser.add_argument(
         "--version",
         action="version",
@@ -93,6 +94,7 @@ def parse_args(args):
         type=str,
         metavar="STR"
     )
+
     parser.add_argument(
         "--c",
         dest="followers_count",
@@ -108,7 +110,7 @@ def parse_args(args):
         help="Time interval in seconds",
         type=int,
         metavar="INT",
-        default=2
+        default=30
     )
 
     parser.add_argument(
@@ -119,6 +121,7 @@ def parse_args(args):
         action="store_const",
         const=logging.INFO,
     )
+
     parser.add_argument(
         "-vv",
         "--very-verbose",

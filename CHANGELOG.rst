@@ -2,6 +2,11 @@
 Changelog
 =========
 
+Version 0.3.0
+=============
+
+- Increase interval 30 seconds.
+
 Version 0.2.0
 =============
 
