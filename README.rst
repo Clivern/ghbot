@@ -11,7 +11,7 @@
 Github Bot
 ==========
 
-    Github Follow Bot to Get More Followers in Python
+    Github Follow Bot in Python
 
 
 
